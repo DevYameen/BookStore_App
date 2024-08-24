@@ -90,7 +90,7 @@ http://localhost:3000
 
 Folder Structure-
 
-```bash bookStoreApp/ │ ├── backend/ │ ├── models/ │ ├── routes/ │ ├── controllers/ │ ├── .env │ └── server.js │ ├── frontend/ │ ├── src/ │ ├── components/ │ ├── pages/ │ └── App.jsx │ └── README.md ```
+```BookStoreApp/ │ ├── backend/ │ ├── models/ │ ├── routes/ │ ├── controllers/ │ ├── .env │ └── server.js │ ├── frontend/ │ ├── src/ │ ├── components/ │ ├── pages/ │ └── App.jsx │ └── README.md ```
 
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository and create a pull request.

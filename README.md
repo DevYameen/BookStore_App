@@ -35,5 +35,76 @@
 
 1. Clone the repository:
 
-   git clone 
+   git clone https://github.com/DevYameen/BookStore_App
    cd bookStoreApp
+
+# Install dependencies:
+
+cd backend
+npm install
+
+# Create a .env file in the backend folder and add the following:
+
+PORT=4001
+MONGODB_URI=mongodb://localhost:27017/bookstoredb
+
+# Start the backend server:
+
+npm run dev
+
+# Frontend Setup:
+
+# Navigate to the frontend folder:
+
+cd frontend
+
+# Install frontend dependencies:
+
+npm install
+
+# Start the frontend development server (Vite):
+
+npm run dev
+
+# Open your browser and navigate to:
+
+http://localhost:3000
+
+# Tech Stack
+
+# Frontend:
+- React.js
+- Tailwind CSS
+- react-slick for carousel
+- Vite for development server
+
+# Backend:
+- Node.js
+- Express.js
+- MongoDB
+
+# API:
+- Custom endpoints for book fetching and management
+
+Folder Structure-
+bookStoreApp/
+│
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── .env
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.jsx
+│
+└── README.md
+
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and create a pull request.
+
+   

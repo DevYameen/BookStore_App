@@ -36,6 +36,7 @@
 1. Clone the repository:
 
    git clone https://github.com/DevYameen/BookStore_App
+
    cd bookStoreApp
 
 # Install dependencies:

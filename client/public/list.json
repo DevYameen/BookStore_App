@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Magic Stories",
+        "title": "Explore the magical world of spells and sorcery.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/book-magic-open-pages-with-sparkles_23-2149046694.jpg?w=740&h=740"
+    },
+    {
+        "id": 2,
+        "name": "The Hidden Treasures",
+        "title": "An adventurous tale of a hunt for ancient treasures.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/treasure-chest-flat-vector_53876-154198.jpg?w=740&h=740"
+    },
+    {
+        "id": 3,
+        "name": "Musical Notes",
+        "title": "Learn the basics of musical composition and theory.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/music-notes-background-design_1172-92.jpg?w=740&h=740"
+    },
+    {
+        "id": 4,
+        "name": "Ocean Wonders",
+        "title": "Dive into the mysteries of the underwater world.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-underwater-scene_23-2148292291.jpg?w=740&h=740"
+    },
+    {
+        "id": 5,
+        "name": "Incredible Inventions",
+        "title": "Discover the inventions that changed the world.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/futuristic-robot-technology_52683-58833.jpg?w=740&h=740"
+    },
+    {
+        "id": 6,
+        "name": "History of Civilizations",
+        "title": "A detailed guide to ancient civilizations and their impacts.",
+        "price": 19.99,
+        "category": "History",
+        "image": "https://img.freepik.com/free-vector/world-map-blue-background_1308-40749.jpg?w=740&h=740"
+    },
+    {
+        "id": 7,
+        "name": "Tech Innovations",
+        "title": "A deep dive into the tech innovations of the 21st century.",
+        "price": 24.99,
+        "category": "Technology",
+        "image": "https://img.freepik.com/free-vector/technology-devices-icons_24877-51384.jpg?w=740&h=740"
+    },
+    {
+        "id": 8,
+        "name": "Creative Writing",
+        "title": "Unlock your creative potential through writing.",
+        "price": 14.99,
+        "category": "Education",
+        "image": "https://img.freepik.com/free-vector/creative-writing-concept_1284-10536.jpg?w=740&h=740"
+    },
+    {
+        "id": 9,
+        "name": "World of Science",
+        "title": "An exploration into the wonders of modern science.",
+        "price": 29.99,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-vector/science-laboratory-flat-icons-set_1284-13971.jpg?w=740&h=740"
+    },
+    {
+        "id": 10,
+        "name": "Mindful Living",
+        "title": "A guide to mental wellness and mindfulness.",
+        "price": 12.99,
+        "category": "Self-Help",
+        "image": "https://img.freepik.com/free-vector/woman-doing-yoga_23-2147805673.jpg?w=740&h=740"
+    },
+    {
+        "id": 11,
+        "name": "Astronomy for Beginners",
+        "title": "Learn the basics of stargazing and astronomy.",
+        "price": 21.99,
+        "category": "Science",
+        "image": "https://img.freepik.com/free-vector/space-universe-background-with-astronomical-objects_107791-260.jpg?w=740&h=740"
+    },
+    {
+        "id": 12,
+        "name": "The Art of Cooking",
+        "title": "Delicious recipes from around the world.",
+        "price": 17.99,
+        "category": "Cooking",
+        "image": "https://img.freepik.com/free-vector/chef-illustration-with-speech-bubble_1419-1591.jpg?w=740&h=740"
+    },
+    {
+        "id": 13,
+        "name": "Photography Basics",
+        "title": "Capture moments like a pro with this beginner's guide.",
+        "price": 13.99,
+        "category": "Photography",
+        "image": "https://img.freepik.com/free-vector/camera-photography-concept-with-different-elements_1284-30310.jpg?w=740&h=740"
+    },
+    {
+        "id": 14,
+        "name": "Fitness Fundamentals",
+        "title": "Stay in shape with this comprehensive fitness guide.",
+        "price": 15.99,
+        "category": "Health",
+        "image": "https://img.freepik.com/free-vector/flat-fitness-equipment-elements-set_52683-62382.jpg?w=740&h=740"
+    },
+    {
+        "id": 15,
+        "name": "Gardening for Everyone",
+        "title": "A beginner's guide to growing your own garden.",
+        "price": 11.99,
+        "category": "Gardening",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-garden-illustration_23-2149216684.jpg?w=740&h=740"
+    },
+    {
+        "id": 16,
+        "name": "Psychology of Success",
+        "title": "Understand the mindset that drives success.",
+        "price": 18.99,
+        "category": "Self-Help",
+        "image": "https://img.freepik.com/free-vector/flat-design-illustration-psychology_23-2149248851.jpg?w=740&h=740"
+    },
+    {
+        "id": 17,
+        "name": "Coding for Beginners",
+        "title": "A complete guide to learning how to code.",
+        "price": 22.99,
+        "category": "Technology",
+        "image": "https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-1106.jpg?w=740&h=740"
+    },
+    {
+        "id": 18,
+        "name": "The Art of War",
+        "title": "Ancient strategies for modern times.",
+        "price": 20.99,
+        "category": "History",
+        "image": "https://img.freepik.com/free-vector/ancient-warrior_23-2149022362.jpg?w=740&h=740"
+    },
+    {
+        "id": 19,
+        "name": "Investing 101",
+        "title": "A beginner's guide to the world of investing.",
+        "price": 19.99,
+        "category": "Finance",
+        "image": "https://img.freepik.com/free-vector/growth-business-investment-concept-flat-design_23-2147732676.jpg?w=740&h=740"
+    },
+    {
+        "id": 20,
+        "name": "World of Art",
+        "title": "A visual journey through the most famous works of art.",
+        "price": 24.99,
+        "category": "Art",
+        "image": "https://img.freepik.com/free-vector/abstract-painting-with-brush-strokes-bright-colors_23-2149375577.jpg?w=740&h=740"
+    }
+]

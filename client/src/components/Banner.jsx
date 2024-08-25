@@ -1,6 +1,8 @@
 import React from "react";
 import banner from "../../public/Banner.png";
 
+import { Link } from 'react-router-dom';
+
 function Banner() {
   return (
     <>
@@ -38,7 +40,9 @@ function Banner() {
               />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Get Started</button>
+          <Link to="/course">
+             <button className="btn mt-6 btn-secondary">Get Started</button>
+          </Link>
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img

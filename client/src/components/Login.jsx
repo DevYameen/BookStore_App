@@ -18,8 +18,9 @@ function Login() {
       email: data.email,
       password: data.password,
     };
+    const bookApiUrl = import.meta.env.VITE_BOOK_API_URL;
     await axios
-      .post("http://localhost:4001/user/login", userInfo)
+      .post(`${bookApiUrl}/user/login`, userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

@@ -3,31 +3,41 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 
-import bookRoute from "./route/book.route.js"
-import userRoute from "./route/user.route.js"
-const app = express()
+import bookRoute from "./route/book.route.js";
+import userRoute from "./route/user.route.js";
 
-app.use(cors());
-app.use(express.json());
+const app = express();
 
 dotenv.config();
 
-const PORT=process.env.PORT || 4000;
+// Set up CORS
+const allowedOrigins = [
+  "book-store-ocr5kdv3y-mohammad-yameens-projects.vercel.app", // Replace with your actual Vercel URL
+  "http://localhost:5173" // For local development (if needed)
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true, // If you're dealing with cookies or authentication
+}));
+
+app.use(express.json());
+
+const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
-//Connect to MongoDB
-try{
-    mongoose.connect(URI
-    );
-    console.log("Connected to mongoDB");
-} catch(error) {
-    console.log("Error: ",error)
+// Connect to MongoDB
+try {
+  mongoose.connect(URI);
+  console.log("Connected to MongoDB");
+} catch (error) {
+  console.log("Error:", error);
 }
 
-// defining routes
-app.use("/book",bookRoute)
-app.use("/user",userRoute)
+// Define routes
+app.use("/book", bookRoute);
+app.use("/user", userRoute);
 
 app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`)
-})
+  console.log(`Server is listening on port ${PORT}`);
+});

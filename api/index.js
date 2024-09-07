@@ -10,14 +10,9 @@ const app = express();
 
 dotenv.config();
 
-// Set up CORS
-const allowedOrigins = [
-  "https://book-store-app-mohammad-yameens-projects.vercel.app", // Your Vercel app URL
-  "http://localhost:5173" // For local development (if needed)
-];
 
 app.use(cors({
-  origin: allowedOrigins,
+  origin: '*',
   credentials: true, // If you're dealing with cookies or authentication
 }));
 

@@ -12,7 +12,7 @@ dotenv.config();
 
 // Set up CORS
 const allowedOrigins = [
-  "book-store-ocr5kdv3y-mohammad-yameens-projects.vercel.app", // Replace with your actual Vercel URL
+  "https://book-store-app-mohammad-yameens-projects.vercel.app", // Your Vercel app URL
   "http://localhost:5173" // For local development (if needed)
 ];
 

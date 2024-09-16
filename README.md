@@ -2,6 +2,10 @@
 
 **BookStore_App** is a full-stack MERN (MongoDB, Express, React, Node.js) project for managing and showcasing books in an online bookstore. The app features both frontend and backend functionalities, allowing users to browse books, filter by category, and add books to their collection. The backend is powered by Node.js with MongoDB, while the frontend is built using React with Tailwind CSS.
 
+## Live Demo
+
+You can view the live version of the application [here](https://book-store-app-mohammad-yameens-projects.vercel.app/).
+
 ## Features
 
 ### Frontend

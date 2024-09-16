@@ -10,10 +10,11 @@ const app = express();
 
 dotenv.config();
 
+const frontendUrl = process.env.FRONTEND_URL || '*';
 
 app.use(cors({
-  origin: '*',
-  credentials: true, // If you're dealing with cookies or authentication
+  origin: frontendUrl,  // Allow Vite frontend URL
+  credentials: true, 
 }));
 
 app.use(express.json());

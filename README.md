@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-You can view the live version of the application [here](https://book-store-app-mohammad-yameens-projects.vercel.app/).
+You can view the live version of the application [here](https://book-store-app-rust.vercel.app).
 
 ## Features
 
